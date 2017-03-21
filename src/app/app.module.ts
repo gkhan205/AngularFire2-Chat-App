@@ -12,8 +12,8 @@ import { HeaderComponent } from './components/common/header.component';
 import { PostsComponent } from './components/posts/posts.component';
 import { HomeComponent } from './components/static/home.component';
 import { AboutComponent } from './components/static/about.component';
-import { LoginPageComponent } from './login-page/login-page.component';
-import { RegisterPageComponent } from './register-page/register-page.component';
+import { LoginPageComponent } from './components/login-page/login-page.component';
+import { RegisterPageComponent } from './components/register-page/register-page.component';
 
 // All Service Imports
 import { PostsService } from './components/posts/posts.service';
