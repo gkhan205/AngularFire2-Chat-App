@@ -1,0 +1,12 @@
+<div class="col-sm-12">
+	<h2>All Posts coming from Sample API</h2>
+	<hr>
+
+	<div *ngFor="let post of posts | paginate: { itemsPerPage: 5, currentPage: p }">
+		<h4>{{post.title}}</h4>
+		<p>{{post.body}}</p>
+		<br>
+	</div>
+	<br>
+	<pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>
