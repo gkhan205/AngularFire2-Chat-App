@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import {Ng2PaginationModule} from 'ng2-pagination';
+import { Ng2PaginationModule } from 'ng2-pagination';
 import { AngularFireModule } from 'angularfire2';
 import { routing } from './app.routing';
 
@@ -17,9 +17,9 @@ import { RegisterPageComponent } from './components/register-page/register-page.
 
 // All Service Imports
 import { PostsService } from './components/posts/posts.service';
-import {AF} from "./providers/af";
+import { AF } from "./providers/af";
 
-
+ 
 
 export const firebaseConfig = {
   apiKey: "AIzaSyA6i7UmsOUHJbF9G80a_TtVqAHwLX3eMaI",
@@ -50,4 +50,5 @@ export const firebaseConfig = {
   providers: [PostsService, AF],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

@@ -43,7 +43,6 @@ export class AF {
       timestamp: Date.now()
     };
     this.messages.push(message);
-    console.log(JSON.stringify(message));
   }
 
 
