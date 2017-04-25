@@ -1,15 +1,15 @@
 webpackJsonp([2,4],{
 
-/***/ 360:
+/***/ 361:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(541);
+var content = __webpack_require__(542);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(583)(content, {});
+var update = __webpack_require__(589)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -27,7 +27,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 541:
+/***/ 542:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(66)();
@@ -35,14 +35,14 @@ exports = module.exports = __webpack_require__(66)();
 
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n\n.ng2-pagination li{\n\tcursor: pointer;\n}\n\npagination-template .ng2-pagination .current{\n\tbackground-color: #ed1c24;\n}", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\r\n\r\n.ng2-pagination li{\r\n\tcursor: pointer;\r\n}\r\n\r\npagination-template .ng2-pagination .current{\r\n\tbackground-color: #ed1c24;\r\n}", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 583:
+/***/ 589:
 /***/ (function(module, exports) {
 
 /*
@@ -295,10 +295,10 @@ function updateLink(linkElement, obj) {
 
 /***/ }),
 
-/***/ 587:
+/***/ 593:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(360);
+module.exports = __webpack_require__(361);
 
 
 /***/ }),
@@ -360,5 +360,5 @@ module.exports = function() {
 
 /***/ })
 
-},[587]);
+},[593]);
 //# sourceMappingURL=styles.bundle.js.map
